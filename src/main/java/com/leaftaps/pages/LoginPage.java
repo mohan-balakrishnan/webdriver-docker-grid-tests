@@ -19,7 +19,7 @@ public class LoginPage extends ProjectHooks{
 	 
 	public HomePage clickLogin() {
 		click(locateElement(Locators.CLASS_NAME, "decorativeSubmit"));
-		reportStep("Login button clicked successfully", "pass");
+		reportStep("My Login button clicked successfully", "pass");
 		return new HomePage();
 	}
 
