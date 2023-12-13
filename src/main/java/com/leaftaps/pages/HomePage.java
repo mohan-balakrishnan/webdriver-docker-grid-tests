@@ -13,7 +13,7 @@ public class HomePage extends ProjectHooks{
 	
 	public MyHomePage clickCrmsfaLink() {
 		click(locateElement(Locators.LINK_TEXT, "CRM/SFA"));
-		reportStep("CRM/SFA link is clicked", "pass");
+		reportStep("CRM/SFA link is clicked Successfully", "pass");
 		return new MyHomePage();
 	}
 	
