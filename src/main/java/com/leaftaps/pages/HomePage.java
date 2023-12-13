@@ -7,7 +7,7 @@ public class HomePage extends ProjectHooks{
 	
 	public HomePage verifyHomePage() {
 		verifyDisplayed(locateElement(Locators.LINK_TEXT, "CRM/SFA"));
-		reportStep("Homepage is loaded", "pass");
+		reportStep("Leaftaps Homepage is loaded Successfully", "pass");
 		return this;
 	}
 	
